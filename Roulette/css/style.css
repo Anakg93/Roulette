@@ -1,0 +1,67 @@
+body{
+    background-image: url("../img/r3.png");
+    background-repeat: no-repeat;    
+    background-size: cover;
+    background-position: inherit
+    
+}
+#form{
+    padding: 1px;
+    color: blanchedalmond;
+    font-size: larger;
+}
+#kasa{
+    width: 30vw;
+    height: 5vh;
+    color: black;
+    font-size: 4vh;
+}
+#ulog{
+    width: 30vw;
+    height: 5vh;
+    color: black;
+    font-size: 4vh;
+}
+#dobitak{
+    font-size: 4vh;
+    width: 30vw;
+    height: 5vh;
+    color: black;
+}
+#profit{
+    font-size: 4vh;
+    width: 30vw;
+    height: 5vh;
+    color: black;
+}
+td{
+    background-color: rgb(15, 26, 177);
+    width: 8vw;
+    height: 3vh;
+    border: 1px solid black;
+    padding: 2px;
+    margin: 0px;
+    color: white;
+    padding: 1vh;
+}
+tr{
+    width: 10vw;
+    height: 5vh;
+    border: 1px solid black;
+}
+#calculate{
+    background-color: blue;
+    color: blanchedalmond;
+    width: 8vw;
+    height: 5vh;
+}
+.container {
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+#myTable{
+    overflow-y: scroll;
+    height:300px;
+    display:block;
+    margin-left: 0%;
+}

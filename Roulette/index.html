@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/javascript.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" id="form">How much money you have?</form>
+        <input type="number" id="kasa" > <br> <br>
+        <form action="" id="form">Bet increment?</form>
+        <input type="number" id="ulog" value="40"> <br> <br>
+        <form action="" id="form">Bet pay out?</form>
+        <input type="number" id="dobitak" value="180"> <br> <br>
+        <form action="" id="form">How much profit for win spin?</form>
+        <input type="number" id="profit"> <br> <br>
+        <button id="calculate" onclick="calculate()"> Calculate </button>
+    </div>
+    <div id="myTable"></div>>
+
+    <script>
+        var input = document.getElementById("profit");
+ //       var input = document.getElementById("kasa");
+ //       var input = document.getElementById("ulog");
+ //       var input = document.getElementById("dobitak");
+        input.addEventListener("keyup", function(event) {
+          if (event.keyCode === 13) {
+           event.preventDefault();
+           document.getElementById("calculate").click();
+          }
+        });
+        </script>
+</body>
+</html>
